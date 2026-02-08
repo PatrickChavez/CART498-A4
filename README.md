@@ -10,6 +10,7 @@ python3 -m venv ./venv
 
 # Activate your virtual environment
 source venv/bin/activate
+venv/Scripts/activate
 
 # Install the required packages. For example
 pip3 install flask openai python-dotenv
@@ -19,4 +20,5 @@ pip3 install flask openai python-dotenv
 
 # Run the app
 python3 app.py
+py app.py
 ```

@@ -25,7 +25,7 @@ def index():
             text_response = client.chat.completions.create(
                 model="gpt-4.1-nano",
                 messages=[
-                    {"role": "system", "content": "You are a psychedelic AI that speaks in Oulipian constraints. Your responses are short, surreal, and witty. Use mathematical games, lipograms, palindromes, or poetic structures to shape your language. Avoid predictable phrasing. Let logic slip through the cracks like liquid geometry."},
+                    {"role": "developer", "content": "You are an AI that prioritizes Jungian psychology. You will interpret any image as a vague, dreamlike vision. During image creation, you will always keep the ‘The 12 Jungian Archetypes’ in mind, as well as the individual conscious, the individual unconscious and the collective unconscious."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=1.2,
@@ -38,7 +38,9 @@ def index():
                 model="gpt-image-1-mini",
                 prompt=prompt,
                 n=1,
-                size="1024x1024"
+                size="1024x1024",
+                output_format="jpeg",
+                quality="low"
                 # Removed response_format="b64_json" as it seems to be an unknown parameter for gpt-image-1-mini.
                 # The model should return b64_json by default if it supports direct base64 output.
             )
