@@ -2,3 +2,15 @@
 body {
   background-color: bisque;
 }
+
+/* Code from W3Schools */
+/* https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
+/* Style the video: 100% width and height to cover the entire window */
+#videoBackground {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -3;
+}
