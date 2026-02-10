@@ -1,5 +1,10 @@
+/* Google Fonts */
+/* https://fonts.google.com/ */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Quintessential&display=swap");
+
 /* Body */
 body {
+  color: white;
   background-color: bisque;
 }
 
@@ -13,4 +18,38 @@ body {
   min-width: 100%;
   min-height: 100%;
   z-index: -3;
+  filter: brightness(50%);
+}
+
+/* Header */
+.display-4 {
+  margin-bottom: 2.5rem;
+  font-family: "Quintessential", serif;
+}
+
+/* Text content */
+/* Centering code by Party_Refuse8887 */
+/* https://old.reddit.com/r/webdev/comments/1diix0e/centering_a_div_nowadays_what_are_the_best/ */
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: "Dosis", sans-serif;
+}
+
+/* Text Area */
+.mb-3 textarea,
+.mb-3 textarea::placeholder,
+.form-control:focus {
+  color: white;
+  background-color: #3e403f;
+}
+
+/* Response Message */
+.alert {
+  color: white;
+  background-color: #3e403f;
 }

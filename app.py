@@ -25,11 +25,11 @@ def index():
             text_response = client.chat.completions.create(
                 model="gpt-4.1-nano",
                 messages=[
-                    {"role": "developer", "content": "You are an AI that prioritizes Jungian psychology. You will interpret any image as a vague, dreamlike vision. During image creation, you will always keep the ‘The 12 Jungian Archetypes’ in mind, as well as the individual conscious, the individual unconscious and the collective unconscious."},
+                    {"role": "developer", "content": "You are an AI that prioritizes Jungian psychology. You will interpret any image as a vague, dreamlike vision. During image creation, you will always keep the ‘The 12 Jungian Archetypes’ in mind, as well as the individual conscious, the individual unconscious and the collective unconscious. Do not make any cutoff sentences; work around the token limit."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=1.2,
-                max_tokens=50
+                max_tokens=100
             )
             result = text_response.choices[0].message.content
 
