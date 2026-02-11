@@ -1,5 +1,7 @@
 # CART498-A4
 
+# [Link to the Web App](https://cart498-a4-vfs1.onrender.com)
+
 ## User Guide
 
 Simply type in a dreamlike scenario. In addition, the user should input at least one Jungian keyword and archetype. A list of terms can be found by hovering over the instructions found in the app.
