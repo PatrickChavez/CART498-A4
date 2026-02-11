@@ -6,7 +6,7 @@ Simply type in a dreamlike scenario. In addition, the user should input at least
 
 ## Jungian Reflection
 
-Most of the ideas and aesthetics of the web app were based on [an article written by Laura Copley, Ph.D. on Positive Psychology]([url](https://positivepsychology.com/jungian-archetypes/)). The article in question gives the reader a basic overview of Jungian terms and archetypes. After skimming through the text, I decided that I wanted to convey a sense of “shadowed unconsciousness” in the visuals. To this end, I made an animated background depicting a photo of Carl Jung along with the four main archetypes of his philosophy (according to the web article): the self, the persona, the shadow and the animus. The idea was that I wanted to quickly convey to the viewer the main ideas of Jung’s philosophy in a single visual (although depending on the viewport, the terms could be obscured). The “TV static” effect was used in order to give the website a feeling of mysteriousness, as if stumbling into a dream or nightmare. There is also the use of warm and cool colors in the text; any description that alludes to dreaming is colored blue in order to convey the detached nature of the “unconscious”. Conversely, the “submit” button is given warm colors to represent the viewer’s “conscious” decision to activate their prompt.
+Most of the ideas and aesthetics of the web app were based on [an article written by Laura Copley, Ph.D. on Positive Psychology](https://positivepsychology.com/jungian-archetypes/). The article in question gives the reader a basic overview of Jungian terms and archetypes. After skimming through the text, I decided that I wanted to convey a sense of “shadowed unconsciousness” in the visuals. To this end, I made an animated background depicting a photo of Carl Jung along with the four main archetypes of his philosophy (according to the web article): the self, the persona, the shadow and the animus. The idea was that I wanted to quickly convey to the viewer the main ideas of Jung’s philosophy in a single visual (although depending on the viewport, the terms could be obscured). The “TV static” effect was used in order to give the website a feeling of mysteriousness, as if stumbling into a dream or nightmare. There is also the use of warm and cool colors in the text; any description that alludes to dreaming is colored blue in order to convey the detached nature of the “unconscious”. Conversely, the “submit” button is given warm colors to represent the viewer’s “conscious” decision to activate their prompt.
 
 ## Possible Improvements
 
@@ -21,16 +21,16 @@ I would have also like to work more on the aesthetics of the web app; maybe I co
 - Gabriel Vigliensoni
 - Google Gemini
 - OpenAI
-- [W3Schools]([url](https://www.w3schools.com/))
+- [W3Schools](https://www.w3schools.com/)
 
 ### Fonts
-[Google Fonts]([url](https://fonts.google.com/))
+[Google Fonts](https://fonts.google.com/)
 
 ### Premiere Pro Tutorial
-[Always Creating]([url](https://www.youtube.com/watch?v=VNiBOwxjGYc))
+[Always Creating](https://www.youtube.com/watch?v=VNiBOwxjGYc)
 
 ### Jungian Terms Overview
-[Laura Copley]([url](https://positivepsychology.com/jungian-archetypes/))
+[Laura Copley](https://positivepsychology.com/jungian-archetypes/)
 
 ### Carl Jung Photo
-[Unbekannt]([url](https://commons.wikimedia.org/wiki/File:ETH-BIB-Jung,_Carl_Gustav_(1875-1961)-Portrait-Portr_14163_(cropped).tif?page=1))
+[Unbekannt](https://commons.wikimedia.org/wiki/File:ETH-BIB-Jung,_Carl_Gustav_(1875-1961)-Portrait-Portr_14163_(cropped).tif?page=1)
