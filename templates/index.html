@@ -15,6 +15,36 @@
 <body>
     <div class="container text-center mt-5">
         <h1 class="display-4">Please, let me dream forever.</h1>
+        <h2>Enter your dreams below (hover over the instructions).</h2>
+        <div class="instructions">1. Inscribe at least one keyword into the prompt.
+            <span class="instructionsTooltip">
+                <li>Ego</li>
+                <li>Personal unconscious</li>
+                <li>Complexes</li>
+                <li>Collective unconscious</li>
+                <li>Self</li>
+                <li>Persona</li>
+                <li>Shadow</li>
+                <li>Anima/animus</li>
+                <li>Individuation</li>
+            </span>
+        </div>
+        <div class="instructions">2. In addition, add an archetype of your choice.
+            <span class="instructionsTooltip">
+                <li>The Innocent</li>
+                <li>The Orphan</li>
+                <li>The Hero</li>
+                <li>The Caregiver</li>
+                <li>The Explorer</li>
+                <li>The Rebel</li>
+                <li>The Lover</li>
+                <li>The Creator</li>
+                <li>The Jester</li>
+                <li>The Sage</li>
+                <li>The Magician</li>
+                <li>The Ruler</li>
+            </span>
+        </div>
         <form method="POST" class="mx-auto col-md-8 col-lg-6">
             <div class="mb-3">
                 <textarea name="prompt" rows="4" class="form-control"
@@ -44,6 +74,11 @@
         <!-- Redirecting to a "static" folder for Flask -->
         <source src="{{ url_for('static', filename='JungBG.mp4') }}" type="video/mp4">
     </video>
+    <!-- Footer -->
+    <footer>Photo of Carl Jung from <a
+            href="https://commons.wikimedia.org/wiki/File:ETH-BIB-Jung,_Carl_Gustav_(1875-1961)-Portrait-Portr_14163_(cropped).tif?page=1">Unbekannt</a>.
+        Jungian terms taken from <a href="https://positivepsychology.com/jungian-archetypes/">Positive Psychology</a>.
+    </footer>
 </body>
 
 </html>
